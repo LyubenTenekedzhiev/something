@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+}
+
+header {
+    padding: 3rem;
+    display: flex;
+    flex: 1;
+    background-color: rgb(66, 63, 63);
+    color: white;
+}
+
+header h1 {
+    margin-left: 1.5rem;
+}
+
+main {
+    /* padding: 3rem; */
+    height: 70%;
+    display: flex;
+}
+
+.sidebar {
+    margin-right: auto;
+    background-color: salmon;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 20%;
+}
+
+.sidebar h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.content hr {
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 0 1 80%;
+
+    background-color: silver;
+    padding: 1rem;
+}
+
+.content h1 {
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    word-wrap: break-word;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0 1 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 1.19rem;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+
+    background-color: rgb(66, 63, 63);
+    color: white;
+    padding: 3rem;
+
+}
